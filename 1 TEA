@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+if(require('module')._extensions['.1TEA']==null){
+  require('coffee-react/register');
+}
+require('./src').parse(process.argv);
